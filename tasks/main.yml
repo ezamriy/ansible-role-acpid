@@ -1,6 +1,6 @@
 ---
 - name: Installing acpid
-  yum: name=acpid state=latest
+  package: name=acpid state=latest
 
 - name: Enabling acpid service
   service: name=acpid enabled=yes state=started

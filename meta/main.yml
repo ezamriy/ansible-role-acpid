@@ -1,9 +1,9 @@
 galaxy_info:
   author: Eugene Zamriy
-  description: Installs and enables acpid daemon on EL 5/6/7 and Fedora
+  description: Installs and enables acpid daemon on EL 5/6/7, Fedora, Debian and Ubuntu
   company: CloudLinux
   license: MIT
-  min_ansible_version: 1.9
+  min_ansible_version: 2.0
   platforms:
     - name: EL
       versions:
@@ -15,6 +15,12 @@ galaxy_info:
         - 23
         - 24
         - 25
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
   galaxy_tags:
     - system
 dependencies: []
